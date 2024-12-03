@@ -17,7 +17,6 @@ with open('input.txt', 'r') as file:
 left_col.sort()
 right_col.sort()
 
-#Iterate through the columns and add the absolute difference between the two columns to our sum.
 for num in left_col:
     instace_count = 0 #This keeps track of how many times we find num in right_col. It will be multiplied with num at the end for the running similarity score
     for num2 in right_col:
